@@ -1,7 +1,7 @@
 NFA: Nondeterministic finite automaton
 ==============
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/kkdai/dfa/master/LICENSE)  [![GoDoc](https://godoc.org/github.com/kkdai/nfa?status.svg)](https://godoc.org/github.com/kkdai/nfa)  [![Build Status](https://travis-ci.org/kkdai/nfa.svg?branch=master)](https://travis-ci.org/kkdai/nfa)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/kkdai/nfa/master/LICENSE)  [![GoDoc](https://godoc.org/github.com/kkdai/nfa?status.svg)](https://godoc.org/github.com/kkdai/nfa)  [![Build Status](https://travis-ci.org/kkdai/nfa.svg?branch=master)](https://travis-ci.org/kkdai/nfa)
 
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/NFASimpleExample.svg/423px-NFASimpleExample.svg.png)
@@ -57,7 +57,7 @@ func main() {
 	var inputs []string
 	inputs = append(inputs, "a")
 	inputs = append(inputs, "b")
-	fmt.Println("If input a, b will go to final?", dfa.VerifyInputs(inputs) )
+	fmt.Println("If input a, b will go to final?", nfa.VerifyInputs(inputs) )
 }
 
 ```
