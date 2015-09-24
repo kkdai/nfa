@@ -95,5 +95,12 @@ func TestNFA(t *testing.T) {
 
 	if !nfa.VerifyInputs(inputs2) {
 		t.Errorf("Verify inputs2 is failed")
+
+	}
+
+	inputs3 := []string{"0", "1", "2"}
+
+	if nfa.VerifyInputs(inputs3) {
+		t.Errorf("Verify inputs3 is failed")
 	}
 }
