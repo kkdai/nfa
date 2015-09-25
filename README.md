@@ -19,6 +19,10 @@ Using the subset construction algorithm, each NFA can be translated to an equiva
 NFAs were introduced in 1959 by Michael O. Rabin and Dana Scott,[2] who also showed their equivalence to DFAs.  (sited from [here](https://en.wikipedia.org/wiki/Nondeterministic_finite_automaton))
 
 
+Looking for DFA implement?
+=============
+
+I also write a DFA implenent in Go here. [https://github.com/kkdai/dfa](https://github.com/kkdai/dfa)
 
 
 Installation and Usage
