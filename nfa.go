@@ -60,6 +60,11 @@ func (d *NFA) AddTransition(srcState int, input string, dstStateList ...int) {
 		return
 	}
 
+	if input == "" {
+		fmt.Println("Not allow null input in NFA")
+		return
+	}
+
 	//find input if exist in NFA input List
 	if _, ok := d.inputMap[input]; !ok {
 		//not exist, new input in this NFA
